@@ -17,8 +17,10 @@ body{
 .nav-header{
     display: flex;
     justify-content: space-between;
-    padding-right: 15%;
+    position: relative;
+    padding-right: 10%;
     padding-top: 1%;
+    
 
 }
 
@@ -46,10 +48,10 @@ body{
 
 .img{
     float: right;
-    width: 60%;
-    bottom: 150px;
-    position: relative;
-    left:75px;
+    width: 70%;
+    position:relative;
+    bottom:200px;
+    left:23%;
 
 
 }
