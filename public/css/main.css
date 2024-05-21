@@ -17,7 +17,7 @@ body{
 .nav-header{
     display: flex;
     justify-content: space-between;
-    padding-right: 10%;
+    padding-right: 15%;
     padding-top: 1%;
 
 }
@@ -41,14 +41,17 @@ body{
 /*****intro-section*****/
 
 .intro-section{
-    
+    display: flex;
 }
 
 .img{
     float: right;
-    width: 50%;
-    display: flex;
-    padding-bottom: 200px;
+    width: 60%;
+    bottom: 150px;
+    position: relative;
+    left:75px;
+
+
 }
 
 
