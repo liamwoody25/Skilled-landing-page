@@ -52,10 +52,7 @@ body{
     position:relative;
     bottom:200px;
     left:23%;
-
-
 }
-
 
 .Get-Started{
     background-image: linear-gradient(#ff6f48,#f02AA6);
@@ -64,4 +61,66 @@ body{
     border: 0;
     height: 40px;
     color: #fff;
+}
+
+/*******courses-section******/
+
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.courses-section .cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text-styling{
+    text-decoration: none;
+    color: #f74780;
+}
+
+.Check-out-card{
+    width: 50%;
+    height: 200px;
+    background-image:linear-gradient(#ff6f48,#f02AA6);
+    border-radius: 10px;
+}
+
+.Animation-card{
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px lightgray;
+    
+}
+
+.Design-card{
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px lightgray;
+}
+
+.Photography-card{
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px lightgray;
+}
+
+.Crypto-card{
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px lightgray;
+}
+
+.Business-card{
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px lightgray;
 }
