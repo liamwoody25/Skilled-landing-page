@@ -1,0 +1,62 @@
+/****general*****/
+
+:root{
+    --color-1:#f02AA6,#ff6f48;
+    --color-2:#13183f;
+}
+
+
+* {
+    font-family: 'Jakarta',sans-serif;
+}
+
+body{
+    font-size: 18px;
+}
+/******nav-header****/
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-top: 1%;
+
+}
+
+.logo{
+    width: 10%;
+    height: 35px;
+    padding-left: 10%;
+}
+
+.get-started{
+    width: 145px;
+    height: 45px;
+    border-radius: 25px;
+    border:0;
+    background-color: #13183f;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+/*****intro-section*****/
+
+.intro-section{
+    
+}
+
+.img{
+    float: right;
+    width: 50%;
+    display: flex;
+    padding-bottom: 200px;
+}
+
+
+.Get-Started{
+    background-image: linear-gradient(#ff6f48,#f02AA6);
+    width: 120px;
+    border-radius: 30px;
+    border: 0;
+    height: 40px;
+    color: #fff;
+}
