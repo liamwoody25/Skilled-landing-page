@@ -91,6 +91,11 @@ body{
     color:#000;
 }
 
+.icon-animation{
+    position: absolute;
+    padding-bottom:20px;
+}
+
 .Check-out-card{
     width: 60%;
     height: 250px;
@@ -109,7 +114,6 @@ body{
     box-shadow: 0 4px 10px lightgray;
     font-size: medium;
     color: var(--text-color);
-    
 }
 
 .Design-card{
