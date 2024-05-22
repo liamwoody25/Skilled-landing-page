@@ -74,7 +74,6 @@ body{
 
 .courses .card{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -83,6 +82,9 @@ body{
     color: #f74780;
 }
 
+.card-body{
+
+}
 .Check-out-card{
     width: 50%;
     height: 200px;
@@ -90,11 +92,12 @@ body{
     border-radius: 10px;
 }
 
-.card{
+.Animation-card{
     width: 50%;
     height: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
+    font-size: 16px;
     
 }
 
@@ -103,6 +106,7 @@ body{
     height: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
+    font-size: medium;
 }
 
 .Photography-card{
