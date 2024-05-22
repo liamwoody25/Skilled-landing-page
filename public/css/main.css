@@ -95,7 +95,7 @@ body{
     width: 60%;
     height: 250px;
     background-image:linear-gradient(#ff6f48,#f02AA6);
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 32px;
     color: #fff;
     padding-left: 25px;
@@ -105,7 +105,7 @@ body{
 .Animation-card{
     width: 65%;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
     font-size: medium;
     color: var(--text-color);
@@ -115,7 +115,7 @@ body{
 .Design-card{
     width: 65%;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
     font-size: medium;
     color:var(--text-color);
