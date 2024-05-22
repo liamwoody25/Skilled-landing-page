@@ -68,13 +68,8 @@ body{
 .courses{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     background-image: linear-gradient(#ffff,#F0F1FF);
-}
-
-.courses .card{
-    display: flex;
-    flex-direction: column;
 }
 
 .text-styling{
@@ -83,18 +78,25 @@ body{
 }
 
 .card-body{
-
+    line-height: 30px;
 }
+
+.title{
+    font-size: 24px;
+}
+
 .Check-out-card{
-    width: 50%;
-    height: 200px;
+    width: 70%;
+    height: 250px;
     background-image:linear-gradient(#ff6f48,#f02AA6);
     border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .Animation-card{
-    width: 50%;
-    height: 200px;
+    width: 70%;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
     font-size: 16px;
@@ -102,8 +104,8 @@ body{
 }
 
 .Design-card{
-    width: 50%;
-    height: 200px;
+    width: 70%;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
     font-size: medium;
