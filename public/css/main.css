@@ -69,7 +69,6 @@ body{
 .courses-cards{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     gap: 30px;
     background-image: linear-gradient(#ffff,#F0F1FF);
 }
@@ -91,7 +90,7 @@ body{
     color:#000;
 }
 
-.icon-animation{
+.icon{
     position: absolute;
     padding-bottom:20px;
 }
@@ -108,7 +107,7 @@ body{
 }
 
 .Animation-card{
-    width: 65%;
+    width: 66%;
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
@@ -117,7 +116,7 @@ body{
 }
 
 .Design-card{
-    width: 65%;
+    width: 66%;
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
