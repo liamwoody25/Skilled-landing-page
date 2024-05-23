@@ -66,10 +66,10 @@ body{
 
 /*******courses-section******/
 
-.courses-cards{
+.courses-card{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     background-image: linear-gradient(#ffff,#F0F1FF);
 }
 
@@ -125,7 +125,7 @@ body{
 }
 
 .Photography-card{
-    width: 65%;
+    width: 66%;
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
