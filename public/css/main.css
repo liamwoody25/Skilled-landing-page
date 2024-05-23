@@ -73,6 +73,13 @@ body{
     background-image: linear-gradient(#ffff,#F0F1FF);
 }
 
+.course-cards .card{
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    
+}
+
 .text-styling{
     text-decoration: none;
     color: #f74780;
@@ -83,6 +90,8 @@ body{
     line-height: 25px;
     padding-left: 25px;
     padding-top: 15px;
+    font-size: medium;
+    color: var(--text-color);
 }
 
 .title{
@@ -111,8 +120,7 @@ body{
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
-    font-size: medium;
-    color: var(--text-color);
+   
 }
 
 .card{
@@ -120,8 +128,6 @@ body{
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
-    font-size: medium;
-    color:var(--text-color);
 }
 
 .Photography-card{
