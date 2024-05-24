@@ -41,11 +41,6 @@ body{
     font-weight: 500;
     font-size: 15px;
 }
-/*****intro-section*****/
-
-.intro-section{
-    display: flex;
-}
 
 .img{
     float: right;
@@ -55,10 +50,24 @@ body{
     left:23%;
 }
 
+/*****intro-section*****/
+
+.intro-text{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--text-color);
+}
+
+.content-title{
+    font-size: 56px;
+    line-height: 56px;
+    color: #000;
+}
+
 .content-body{
     display: flex;
     flex-wrap: wrap;
-    line-height: 45px;
+    line-height: 25px;
 }
 
 .Get-Started{
