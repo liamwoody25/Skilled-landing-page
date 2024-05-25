@@ -13,6 +13,7 @@
 
 body{
     font-size: 18px;
+    margin: 0px;
 }
 /******nav-header****/
 .nav-bar{
@@ -21,14 +22,19 @@ body{
     position: relative;
     padding-right: 15%;
     padding-top: 1%;
-    
-
 }
 
 .logo{
-    width: 100%;
+    width: 130px;
     height: 35px;
-    padding-left: 100%;
+    padding-left: 160px;
+}
+
+.Button{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom:1%;
 }
 
 .get-started{
@@ -48,15 +54,15 @@ body{
     width: 70%;
     position:relative;
     bottom:240px;
-    right: 20%;
-    left:15%;
+    right: 10%;
+    left:17%;
 }
 
 /*****intro-section*****/
 
 .intro-text{
-    display: flex;
-    flex-wrap: wrap;
+    padding-bottom:30px;
+
     color: var(--text-color);
 }
 
@@ -132,7 +138,7 @@ body{
     line-height: 45px;
 }
 
-.Animation-card{
+.card{
     width: 66%;
     height: 250px;
     border-radius: 15px;
