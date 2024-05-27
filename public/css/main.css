@@ -59,26 +59,23 @@ body{
 }
 
 /*****intro-section*****/
-
+.intro-body{
+  display: flex;
+  flex-wrap: wrap;
+}
 .intro-text{
+    width: 30%;
     padding-bottom:30px;
-
     color: var(--text-color);
+    font-size: 18px;
 }
 
-.content-title{
+.intro-title{
+    width:450px;
     font-size: 56px;
     line-height: 56px;
     color: #000;
 }
-
-.content-body{
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 25px;
-    padding-bottom: 30px;
-}
-
 .Get-Started{
     background-image: linear-gradient(#ff6f48,#f02AA6);
     width: 120px;
@@ -95,11 +92,6 @@ body{
     flex-wrap:wrap;
     gap: 30px;
     background-image: linear-gradient(#ffff,#F0F1FF);
-}
-
-.course-cards .card{
-    display: flex;
-    flex-direction: column;
 }
 .text-styling{
     text-decoration: none;
