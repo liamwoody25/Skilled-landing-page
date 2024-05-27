@@ -97,8 +97,10 @@ body{
     background-image: linear-gradient(#ffff,#F0F1FF);
 }
 
-
-
+.course-cards .card{
+    display: flex;
+    flex-direction: column;
+}
 .text-styling{
     text-decoration: none;
     color: #f74780;
@@ -111,29 +113,24 @@ body{
     padding-top: 15px;
 }
 
-.title{
+.card-title{
     font-size: 24px;
     color:#000;
-}
-
-.text-title{
-    font-size: medium;
 
 }
-
 .Check-out-card{
-    width: 65%;
-    height: 250px;
     background-image:linear-gradient(#ff6f48,#f02AA6);
     border-radius: 15px;
     font-size: 32px;
     color: #fff;
     padding-left: 25px;
     line-height: 45px;
+    height: 250px;
+    width: 250px;
 }
 
 .Animation-card{
-    width: 70%;
+    width: 20%;
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
@@ -143,7 +140,7 @@ body{
 }
 
 .Design-card{
-    width: 70%;
+    width: 20%;
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
@@ -153,7 +150,7 @@ body{
 }
 
 .Photography-card{
-    width: 70%;
+    width: 20%;
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
@@ -162,7 +159,7 @@ body{
 }
 
 .Crypto-card{
-    width:66%;
+    width:20%;
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
@@ -172,7 +169,7 @@ body{
 }
 
 .Business-card{
-    width:66%;
+    width:20%;
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
