@@ -92,16 +92,12 @@ body{
  
 .course-cards{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     gap: 30px;
     background-image: linear-gradient(#ffff,#F0F1FF);
 }
 
-.course-cards .card{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 .text-styling{
     text-decoration: none;
@@ -113,8 +109,6 @@ body{
     line-height: 25px;
     padding-left: 25px;
     padding-top: 15px;
-    font-size: medium;
-    color: var(--text-color);
 }
 
 .title{
@@ -122,13 +116,13 @@ body{
     color:#000;
 }
 
-.icon{
-    position: absolute;
-    padding-bottom:20px;
+.text-title{
+    font-size: medium;
+
 }
 
 .Check-out-card{
-    width: 60%;
+    width: 65%;
     height: 250px;
     background-image:linear-gradient(#ff6f48,#f02AA6);
     border-radius: 15px;
@@ -138,23 +132,28 @@ body{
     line-height: 45px;
 }
 
-.card{
-    width: 66%;
+.Animation-card{
+    width: 70%;
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
+    font-size: medium;
+    color: var(--text-color);
    
 }
 
 .Design-card{
-    width: 66%;
+    width: 70%;
     height: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 10px lightgray;
+    font-size: medium;
+    color: var(--text-color);
+    
 }
 
 .Photography-card{
-    width: 66%;
+    width: 70%;
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 10px lightgray;
