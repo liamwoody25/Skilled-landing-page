@@ -122,6 +122,17 @@ body{
     color:#000;
 
 }
+
+.animation-icon{
+    position: absolute;
+    padding-top:5px;
+}
+
+.crypto-icon{
+    position: absolute;
+    bottom:50%;
+    width: 50px;
+}
 .Check-out-card{
     background-image:linear-gradient(#ff6f48,#f02AA6);
     border-radius: 15px;
