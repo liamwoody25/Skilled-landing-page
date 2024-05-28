@@ -16,7 +16,6 @@
 body{
     font-size: 18px;
     margin: 0px;
-    background-image: linear-gradient(#ffff,#F0F1FF);
 }
 /******nav-header****/
 .nav-bar{
@@ -89,18 +88,21 @@ body{
 }
 
 /*******courses-section******/
+
+.courses-section{
+    background-image:linear-gradient(#ffff,#F0F1FF);
+}
 .course-cards{
-    margin-bottom: 10%;
+    padding-bottom:100px;
     margin-top: 33%;
-    margin-left: 8%;
+    margin-left: 100px;
     display: flex;
     flex-wrap:wrap;
-    gap: 30px;
+    gap:30px;
 }
 
 .course-cards.card{
-    display: flex;
-    flex-direction: row;
+
 }
 .text-styling{
     text-decoration: none;
