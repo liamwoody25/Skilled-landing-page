@@ -16,6 +16,7 @@
 body{
     font-size: 18px;
     margin: 0px;
+    background-image: linear-gradient(#ffff,#F0F1FF);
 }
 /******nav-header****/
 .nav-bar{
@@ -88,15 +89,18 @@ body{
 }
 
 /*******courses-section******/
-.courses{
-    background-image: linear-gradient(#ffff,#F0F1FF);
-}
 .course-cards{
+    margin-bottom: 20%;
     margin-top: 33%;
     margin-left: 8%;
     display: flex;
     flex-wrap:wrap;
     gap: 30px;
+}
+
+.course-cards.card{
+    display: flex;
+    flex-direction: row;
 }
 .text-styling{
     text-decoration: none;
@@ -119,7 +123,7 @@ body{
 .Check-out-card{
     background-image:linear-gradient(#ff6f48,#f02AA6);
     border-radius: 15px;
-    font-size: 32px;
+    font-size:32px;
     color: #fff;
     padding-left: 25px;
     line-height: 45px;
@@ -128,10 +132,10 @@ body{
 }
 
 .Animation-card{
-    width: 275px;
+    width: 285px;
     height: 260px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px #F0F1FF;
+    box-shadow: 0 10px 10px var(--card-bsh-color);
     background-color:var(--card-bg-color);
     font-size: 16px;
     color: var(--text-color);
@@ -139,43 +143,66 @@ body{
 }
 
 .Design-card{
-    width: 275px;
+    width: 285px;
     height: 260px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px #F0F1FF;
-    font-size: medium;
+    box-shadow: 0 10px 10px var(--card-bsh-color);
+    font-size: 16px;
     color: var(--text-color);
     background-color: var(--card-bg-color);
     
 }
 
 .Photography-card{
-    width: 275px;
+    width: 285px;
     height: 260px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px #F0F1FF;
+    border-radius: 15px;
+    box-shadow: 0 10px 11px var(--card-bsh-color);
     background-color: var(--card-bg-color);
-    font-size: medium;
+    font-size: 16px;
     color: var(--text-color);
 }
 
 .Crypto-card{
-    width:275px;
+    width:285px;
     height: 260px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px #F0F1FF;
+    border-radius: 15px;
+    box-shadow: 0 10px 11px var(--card-bsh-color);
     background-color: var(--card-bg-color);
-    font-size: medium;
+    font-size: 16px;
     color: var(--text-color);
     
 }
 
 .Business-card{
-    width:275px;
+    width:285px;
     height: 260px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px #F0F1FF;
+    border-radius: 15px;
+    box-shadow: 0 11px 10px var(--card-bsh-color);
     background-color: var(--card-bg-color);
-    font-size: medium;
+    font-size: 16px;
     color: var(--text-color);
+}
+
+/******footer-section*****/
+
+.footer-section{
+    height: 120px;
+    background-color: var(--color-2);
+}
+
+.logo-light{
+
+    width: 150px;
+}
+
+.Get-Started-2{
+    background-image: linear-gradient(#4851ff,#f02AA6);
+    border: 0;
+    width: 167px;
+    height: 56px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+
 }
