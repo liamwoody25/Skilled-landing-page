@@ -90,7 +90,7 @@ body{
 
 /*******courses-section******/
 .course-cards{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     margin-top: 33%;
     margin-left: 8%;
     display: flex;
@@ -187,22 +187,31 @@ body{
 /******footer-section*****/
 
 .footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     height: 120px;
     background-color: var(--color-2);
 }
 
 .logo-light{
-
-    width: 150px;
+    position: relative;
+    top: 35%;
+    left: 160px;
+    width: 112;
+    height: 27px;
 }
 
 .Get-Started-2{
+    position: relative;
+    top: 25%;
     background-image: linear-gradient(#4851ff,#f02AA6);
     border: 0;
     width: 167px;
-    height: 56px;
+    height: 54px;
     border-radius: 30px;
     color: #fff;
     font-size: 18px;
+    right: 10%;
 
 }
