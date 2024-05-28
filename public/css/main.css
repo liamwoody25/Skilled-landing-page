@@ -4,6 +4,8 @@
     --color-1:#f02AA6,#ff6f48;
     --color-2:#13183f;
     --text-color:#83869A;
+    --card-bg-color:#fff;
+    --card-bsh-color:#F0F1FF;
 }
 
 
@@ -86,12 +88,15 @@ body{
 }
 
 /*******courses-section******/
- 
+.courses{
+    background-image: linear-gradient(#ffff,#F0F1FF);
+}
 .course-cards{
+    margin-top: 33%;
+    margin-left: 8%;
     display: flex;
     flex-wrap:wrap;
     gap: 30px;
-    background-image: linear-gradient(#ffff,#F0F1FF);
 }
 .text-styling{
     text-decoration: none;
@@ -100,8 +105,9 @@ body{
 }
 
 .card-body{
+    width: 260px;
     line-height: 25px;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-top: 15px;
 }
 
@@ -117,54 +123,59 @@ body{
     color: #fff;
     padding-left: 25px;
     line-height: 45px;
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 270px;
 }
 
 .Animation-card{
-    width: 20%;
-    height: 250px;
+    width: 275px;
+    height: 260px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px lightgray;
-    font-size: medium;
+    box-shadow: 0 4px 10px #F0F1FF;
+    background-color:var(--card-bg-color);
+    font-size: 16px;
     color: var(--text-color);
    
 }
 
 .Design-card{
-    width: 20%;
-    height: 250px;
+    width: 275px;
+    height: 260px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px lightgray;
+    box-shadow: 0 4px 10px #F0F1FF;
     font-size: medium;
     color: var(--text-color);
+    background-color: var(--card-bg-color);
     
 }
 
 .Photography-card{
-    width: 20%;
-    height: 250px;
+    width: 275px;
+    height: 260px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px lightgray;
+    box-shadow: 0 4px 10px #F0F1FF;
+    background-color: var(--card-bg-color);
     font-size: medium;
     color: var(--text-color);
 }
 
 .Crypto-card{
-    width:20%;
-    height: 250px;
+    width:275px;
+    height: 260px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px lightgray;
+    box-shadow: 0 4px 10px #F0F1FF;
+    background-color: var(--card-bg-color);
     font-size: medium;
     color: var(--text-color);
     
 }
 
 .Business-card{
-    width:20%;
-    height: 250px;
+    width:275px;
+    height: 260px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px lightgray;
+    box-shadow: 0 4px 10px #F0F1FF;
+    background-color: var(--card-bg-color);
     font-size: medium;
     color: var(--text-color);
 }
