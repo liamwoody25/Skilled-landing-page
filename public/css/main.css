@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-right: 15%;
+    padding-right: 20%;
     padding-top: 1%;
 }
 
@@ -30,13 +30,6 @@ body{
     width: 130px;
     height: 35px;
     padding-left: 160px;
-}
-
-.Button{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    padding-bottom:1%;
 }
 
 .get-started{
@@ -62,20 +55,22 @@ body{
 
 /*****intro-section*****/
 .intro-body{
-  display: flex;
-  flex-wrap: wrap;
+    width: 450px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .intro-text{
-    width: 30%;
-    padding-bottom:30px;
+    width: 300px;
+    padding-bottom: 30px;
     color: var(--text-color);
     font-size: 18px;
 }
 
 .intro-title{
-    width:450px;
+    width: 100%;
     font-size: 56px;
-    line-height: 56px;
+    line-height: 58px;
     color: #000;
 }
 .Get-Started{
@@ -97,14 +92,10 @@ body{
     margin-top: 33%;
     margin-left: 100px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap:30px;
 }
 
-.course-cards.card{
-    display: flex;
-
-}
 .text-styling{
     text-decoration: none;
     color: #f74780;
@@ -118,10 +109,10 @@ body{
     padding-top: 15px;
 }
 
+
 .card-title{
     font-size: 24px;
     color:#000;
-
 }
 
 .animation-icon{
@@ -147,6 +138,11 @@ body{
     line-height: 45px;
     height: 260px;
     width: 270px;
+}
+
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Animation-card{
@@ -216,7 +212,7 @@ body{
     position: relative;
     top: 35%;
     left: 160px;
-    width: 112;
+    width: 112px;
     height: 27px;
 }
 
