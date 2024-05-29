@@ -50,7 +50,7 @@ body{
     position:relative;
     bottom:240px;
     right: 10%;
-    left:17%;
+    left:15%;
 }
 
 /*****intro-section*****/
@@ -228,4 +228,11 @@ body{
     font-size: 18px;
     right: 10%;
 
+}
+
+/******media-quiery******/
+@media screen and (max-width:1440px) {
+    body{
+        
+    }
 }
