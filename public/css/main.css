@@ -15,21 +15,23 @@
 
 body{
     font-size: 18px;
-    margin: 0px;
+    margin: 0;
 }
 /******nav-header****/
 .nav-bar{
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-right: 20%;
+    padding-right: 5%;
     padding-top: 1%;
+
 }
 
 .logo{
-    width: 130px;
-    height: 35px;
-    padding-left: 160px;
+    width: 120px;
+    height: 34px;
+    padding-left: 100px;
+
 }
 
 .get-started{
@@ -45,16 +47,19 @@ body{
 
 .img{
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
     float: right;
-    width: 70%;
-    position:relative;
-    bottom:240px;
-    right: 10%;
-    left:15%;
+    width: 100px;
+    bottom:230px;
+    right: 5%;
+    left: 10%;
+   
 }
 
 /*****intro-section*****/
 .intro-body{
+    position: absolute;
     width: 450px;
     padding-left: 100px;
     display: flex;
@@ -62,7 +67,7 @@ body{
 }
 .intro-text{
     width: 300px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     color: var(--text-color);
     font-size: 18px;
 }
@@ -93,7 +98,7 @@ body{
     margin-left: 100px;
     display: flex;
     flex-wrap: wrap;
-    gap:30px;
+    gap:20px;
 }
 
 .text-styling{
@@ -231,8 +236,9 @@ body{
 }
 
 /******media-quiery******/
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1024px) {
     body{
-        
+        position: absolute;
+        right: 10px;
     }
 }
